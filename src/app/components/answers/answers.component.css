@@ -8,3 +8,9 @@
 .bg-danger, .bg-success{
     color: white
 }
+
+@media(max-width: 768px){
+    span, a{
+        font-size: 1.2rem;
+    }
+}
