@@ -1,0 +1,10 @@
+.badge{
+    position: absolute;
+    right: -25px;
+    top: 50%;    
+    translate: -50%  -50%;    
+}
+
+.bg-danger, .bg-success{
+    color: white
+}

@@ -1,0 +1,19 @@
+<ul class="list-group">
+    <h5 class="mb-3"> Question {{_questionService.indexQuestion +1}}</h5>
+    <h4 class="card-title" >{{listOfQuestions[_questionService.indexQuestion].description}}</h4>    
+    <br>
+    <li class="list-group-item" 
+        *ngFor=" let answer of listOfQuestions[_questionService.indexQuestion].answers; let i = index" 
+        (click)="answerSelected(answer, i)"
+        [ngClass]="AddClassOption(answer)" > {{answer.name}}
+        <span class="material-icons-outlined badge"
+        *ngIf ='correctIcon(answer)'        >
+            check_circle_outline
+        </span>
+        <span class="material-icons-outlined badge"
+        *ngIf ='incorrectIcon(answer)'>
+            error_outline
+        </span>
+    </li>
+</ul>
+<app-buttons></app-buttons>
