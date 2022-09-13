@@ -1,5 +1,14 @@
 # QuizApp
 
+Fun quiz App made with Angular. Play a round of 10 random questions and see how many you can guess right!
+
+<img src="https://i.imgur.com/CS62Zbj.png" alt="app-dashboard">
+
+<img src="https://i.imgur.com/gKWZIBB.png" alt="app-dashboard">
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
 ## Development server
